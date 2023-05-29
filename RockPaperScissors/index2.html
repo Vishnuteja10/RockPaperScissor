@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #8CC461;
+        }
+
+        .main {
+            position: absolute;
+            left: 40%;
+            top: 50%;
+        }
+
+        .head {
+            font-size: 50px;
+            color: white;
+        }
+
+        .subhead {
+            color: white;
+            font-size: 30px;
+        }
+
+        button {
+            color: rgb(26, 24, 24);
+            background-color: white;
+            border-radius: 9px;
+            position: absolute;
+            left: 45%;
+            top: 65%;
+            font-size: 20px;
+            width: 90px;
+            height: 44px;
+        }
+
+        .vector-img {
+            position: absolute;
+            top: 20%;
+            left: 42%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="vector-img">
+        <img src="Vector.png">
+    </div>
+    <div class="main">
+        <span class="head">HURRAY !!!</span><br>
+        <span class="subhead">YOU WON THE GAME</span>
+    </div>
+    <button onclick="previousPage()">replay</button>
+    <script>
+        function previousPage() {
+            window.location.href = "index.html"
+        }
+    </script>
+</body>
+
+</html>
